@@ -1,0 +1,41 @@
+<!-- app/templates/home/index.html -->
+
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <!-- <img src="/app/static/img/greenmile.png" alt="logo"> -->
+                    <h1>WELCOME TO GREENMILE!</h1><br>
+                    <h3>AN ENVIRONMENTALLY FRIENDLY WAY OF DELIVERY</h3><br>
+                    <hr class="intro-divider"><br>
+
+
+
+                    <!-- <div class="container">   -->
+                    <form id="contact" action="http://localhost:5000/result" method="POST">
+                        <h3>FIND YOUR PACKAGE</h3><br>
+
+
+                        <input placeholder="Tracking Number" type="text" tabindex="5">
+
+                        <br>
+                        <br>
+                        <button type="submit">Submit</button>
+
+                    </form>
+                    <!-- </div> -->
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
